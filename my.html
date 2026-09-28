@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Simulation</title>
+    <link rel="stylesheet" href="my.css">
+</head>
+<body>
+    <header id="app-header">
+        <div id="head-1">
+            <h1>Welcome</h1>
+            <h2>What should we call you?</h2>
+        </div>
+    </header>
+    <nav>
+        <div class="color-change">
+              <button data-color="#ffffff">white</button>
+              <button data-color="#000000">black</button>
+              <button data-color="#dfeeff">light blue</button>
+        </div>
+
+    </nav>
+
+    <main id="welcome-screen">
+        <div class="input">
+        <input id="name-input" type="text" placeholder="enter your name..." autocomplete="name">
+        </div>
+        <br>
+        <button id="start-button" type="button">Get started</button>
+    </main>
+
+    <main id="todo-screen" hidden></main>
+
+    <script src="main.js"></script>
+</body>
+</html>
